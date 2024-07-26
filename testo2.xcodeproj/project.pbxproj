@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05DA85362C24F9730045000A /* Chart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DA85352C24F9730045000A /* Chart1.swift */; };
 		05FB014C2C22639E00EFD48D /* testo2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB014B2C22639E00EFD48D /* testo2App.swift */; };
 		05FB014E2C22639E00EFD48D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB014D2C22639E00EFD48D /* ContentView.swift */; };
 		05FB01502C22639F00EFD48D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB014F2C22639F00EFD48D /* Assets.xcassets */; };
 		05FB01532C22639F00EFD48D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05FB01522C22639F00EFD48D /* Preview Assets.xcassets */; };
+		05FB01602C2264CE00EFD48D /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FB015F2C2264CE00EFD48D /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05DA85352C24F9730045000A /* Chart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart1.swift; sourceTree = "<group>"; };
 		05FB01482C22639E00EFD48D /* testo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05FB014B2C22639E00EFD48D /* testo2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testo2App.swift; sourceTree = "<group>"; };
 		05FB014D2C22639E00EFD48D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05FB014F2C22639F00EFD48D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05FB01522C22639F00EFD48D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05FB015F2C2264CE00EFD48D /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		05FB014A2C22639E00EFD48D /* testo2 */ = {
 			isa = PBXGroup;
 			children = (
+				05FB015E2C22649C00EFD48D /* New Group 4 */,
+				05FB015D2C22649800EFD48D /* New Group 3 */,
+				05FB015C2C22649400EFD48D /* New Group 2 */,
+				05FB015B2C22647E00EFD48D /* New Group */,
 				05FB014B2C22639E00EFD48D /* testo2App.swift */,
 				05FB014D2C22639E00EFD48D /* ContentView.swift */,
 				05FB014F2C22639F00EFD48D /* Assets.xcassets */,
@@ -65,6 +73,36 @@
 				05FB01522C22639F00EFD48D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05FB015B2C22647E00EFD48D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				05FB015F2C2264CE00EFD48D /* Login.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		05FB015C2C22649400EFD48D /* New Group 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group 2";
+			sourceTree = "<group>";
+		};
+		05FB015D2C22649800EFD48D /* New Group 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group 3";
+			sourceTree = "<group>";
+		};
+		05FB015E2C22649C00EFD48D /* New Group 4 */ = {
+			isa = PBXGroup;
+			children = (
+				05DA85352C24F9730045000A /* Chart1.swift */,
+			);
+			path = "New Group 4";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +121,8 @@
 			dependencies = (
 			);
 			name = testo2;
+			packageProductDependencies = (
+			);
 			productName = testo2;
 			productReference = 05FB01482C22639E00EFD48D /* testo2.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +151,8 @@
 				Base,
 			);
 			mainGroup = 05FB013F2C22639E00EFD48D;
+			packageReferences = (
+			);
 			productRefGroup = 05FB01492C22639E00EFD48D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +179,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05FB01602C2264CE00EFD48D /* Login.swift in Sources */,
 				05FB014E2C22639E00EFD48D /* ContentView.swift in Sources */,
+				05DA85362C24F9730045000A /* Chart1.swift in Sources */,
 				05FB014C2C22639E00EFD48D /* testo2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
